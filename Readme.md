@@ -37,8 +37,4 @@ defer free_matrix(allocator, matrix);
 
 ```zig
 print_matrix(matrix);
-```  
-
-## Performance  
-
-Even without **parallelism** and **SIMD**, this library is highly optimized for large-scale graph computations.  
+```   
