@@ -40,7 +40,7 @@ pub fn  generate_matrix(allocator: std.mem.Allocator, size: usize,density_grade:
 
     return result;
 }
-fn  free_matrix(allocator: std.mem.Allocator, matrix: [][]u8) void {
+pub fn  free_matrix(allocator: std.mem.Allocator, matrix: [][]u8) void {
     for (matrix) |row| free_row(allocator, row);
     allocator.free(matrix);
 }
@@ -51,7 +51,7 @@ fn  print_scalar(scalar: u8) void {
 fn  print_row(row: []u8) void {
     for (row) |*n| print_scalar(n.*);
 }
-fn  print_matrix(matrix: [][]u8) void {
+pub fn  print_matrix(matrix: [][]u8) void {
     for (matrix) |*n| {
         print_row(n.*);
         std.debug.print("\n", .{});
