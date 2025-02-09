@@ -6,17 +6,14 @@ A high-performance library for generating randomized adjacency matrices of confi
 
 ## Features  
 
-- Generates an **N × N** adjacency matrix with adjustable density.  
-- Uses **row-based allocation** (`[][]u8`) for improved composability.  
-- Optimized for large matrices (e.g., **10,000 × 10,000**).  
-- Supports both **dense** and **sparse** graphs.  
-- Includes utilities for **printing** and **deallocation**.  
+- Generates an N × N adjacency matrix with adjustable density.  
+- Uses row-based allocation (`[][]u8`) for improved composability.  
+- Includes utilities for printing and deallocation.  
 
 ## Future Improvements  
 
-- **Parallelism** (multithreading) for faster matrix generation.  
-- **SIMD optimizations** for vectorized operations.  
-- Further enhancements inspired by **functorial compositions** and **inductive typing**.  
+- Parallelism and SIMD optimizations for faster matrix generation.  
+- Further enhancements inspired by functorial compositions and inductive typing.  
 
 ## Related Work  
 
