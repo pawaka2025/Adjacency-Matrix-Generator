@@ -17,7 +17,7 @@ A high-performance library for generating randomized adjacency matrices of confi
 
 ## Related Work  
 
-Inspired by ideas in functorial composition and inductive typing from my other project: [3DAlloc](https://github.com/orgs/CarbonDev/repositories).  
+Inspired by ideas in functorial composition and inductive typing from my other project: [3DAlloc](https://github.com/pawaka2025/3DAlloc).  
 
 ## Usage  
 
